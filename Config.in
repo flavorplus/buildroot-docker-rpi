@@ -1,5 +1,5 @@
-source "$BR2_EXTERNAL_BR_RPI_EXAMPLE_PATH/package/pkg-1/Config.in"
-source "$BR2_EXTERNAL_BR_RPI_EXAMPLE_PATH/package/pkg-2/Config.in"
+#source "$BR2_EXTERNAL_BR_RPI_EXAMPLE_PATH/package/pkg-1/Config.in"
+#source "$BR2_EXTERNAL_BR_RPI_EXAMPLE_PATH/package/pkg-2/Config.in"
 
 config BR_RPI_EXAMPLE_FLASH_ADDR
   hex "my-board flash address"

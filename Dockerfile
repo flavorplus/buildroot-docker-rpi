@@ -17,4 +17,4 @@ COPY ./ tree/
 
 WORKDIR /root/tree/output/
 
-#RUN make O=$PWD -C /root/buildroot raspberrypi3_64_defconfig
+RUN make O=$PWD BR2_EXTERNAL=/root/tree -C /root/buildroot raspberrypi3_defconfig
