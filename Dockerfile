@@ -13,7 +13,7 @@ RUN wget -nv https://git.busybox.net/buildroot/snapshot/buildroot-2018.02.2.tar.
     ln -s buildroot-* buildroot
 
 RUN mkdir -v tree/
-COPY ./* tree/
+COPY ./ tree/
 
 WORKDIR /root/tree/output/
 

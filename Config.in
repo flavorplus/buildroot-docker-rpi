@@ -1,6 +1,6 @@
-source "$BR2_EXTERNAL_BR-RPI-EXAMPLE_PATH/package/pkg-1/Config.in"
-source "$BR2_EXTERNAL_BR-RPI-EXAMPLE_PATH/package/pkg-2/Config.in"
+source "$BR2_EXTERNAL_BR_RPI_EXAMPLE_PATH/package/pkg-1/Config.in"
+source "$BR2_EXTERNAL_BR_RPI_EXAMPLE_PATH/package/pkg-2/Config.in"
 
-config BR-RPI-EXAMPLE_FLASH_ADDR
+config BR_RPI_EXAMPLE_FLASH_ADDR
   hex "my-board flash address"
   default 0x10AD
